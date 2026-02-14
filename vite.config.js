@@ -3,5 +3,5 @@ import react from '@vitejs/react-swc'
 
 export default defineConfig({
   plugins: [react()],
-  base: 'Prezenta-la-serviciu', // Pune aici numele proiectului de pe GitHub
+  base: './', // Această linie repară eroarea 404 din consolă
 })
